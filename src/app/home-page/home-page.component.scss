@@ -7,9 +7,9 @@
     position: absolute;
     position: absolute;
     width: 100%;
-    height: 377px;
+    height: 19.635416666666667vw;
     left: 1px;
-    top: 817px;
+    top: 42.552083333333333vw;
 
     background: linear-gradient(
       180deg,
@@ -24,9 +24,9 @@
   width: 100%;
 }
 .lightbackground {
-  margin-top: -30px;
+  margin-top: -1.5625vw;
   width: 100%;
-  max-height: 1112px;
+  max-height: 57.916666666666667vw;
 }
 
 .textsection {
@@ -98,38 +98,38 @@
 }
 
 .tripSection {
-  margin: 232px 299px 100px 266px;
+  margin: 12.083333333333333vw 15.572916666666667vw 5.208333333333333vw 13.854166666666667vw;
 }
 
 .tripHeader {
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-bottom: 83px;
+  margin-bottom: 4.322916666666667vw;
 
   .tripTitle {
     font-family: Noe Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 3.75vw;
     line-height: 110%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #ffffff;
-    margin-left: 93px;
+    margin-left: 4.84375vw;
   }
   .tripDescription {
     font-family: Larsseit;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 0.833333333333333vw;
     line-height: 150%;
     letter-spacing: -0.02em;
-    width: 349px;
+    width: 18.177083333333333vw;
   }
 
   .xIcon {
-    margin: 0px 33px;
+    margin: 0px 1.71875vw;
   }
 }
 
@@ -143,11 +143,11 @@
 }
 
 .tripsContainer {
-  margin: 0px 0px 95px 139px;
+  margin: 0 0 4.947916666666667vw 7.239583333333333vw;
   font-family: Larsseit;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 0.9375vw;
   line-height: 110%;
   text-align: center;
   letter-spacing: -0.02em;
@@ -161,13 +161,13 @@
     font-family: Larsseit;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.833333333333333vw;
     line-height: 110%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #ffffff;
     opacity: 0.5;
-    padding-bottom: 33px;
+    padding-bottom: 1.71875vw;
     width: 100%;
     overflow: hidden;
 
@@ -179,7 +179,7 @@
         position: absolute;
         color: white;
         border-radius: 13px;
-        height: 4px;
+        height: 0.208333333333333vw;
         z-index: 1111;
         bottom: 0px;
         left: 0px;
@@ -215,21 +215,21 @@
     font-family: Noe Display;
     font-style: normal;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 3.385416666666667vw;
     line-height: 110%;
     letter-spacing: -0.02em;
     color: #ffffff;
-    margin-top: 67px;
-    margin-bottom: 34px;
+    margin-top: 3.489583333333333vw;
+    margin-bottom: 1.770833333333333vw;
   }
   .tripInfo {
     font-family: Larsseit;
     font-style: normal;
-    font-size: 17px;
+    font-size: 0.885416666666667vw;
     line-height: 150%;
     letter-spacing: -0.02em;
     color: #ffffff;
-    max-width: 485px;
+    max-width: 25.260416666666667vw;
   }
 }
 
@@ -239,14 +239,14 @@
 }
 
 swiper {
-  width: 486px;
-  height: 607px;
-  margin-left: 139px;
+  width: 25.3125vw;
+  height: 31.614583333333333vw;
+  margin-left: 7.239583333333333vw;
   background: #011627;
 }
 .sliderContainer {
   position: relative;
-  margin-right: 124px;
+  margin-right: 6.458333333333333vw;
   .arrows {
     position: absolute;
     bottom: 0px;
@@ -256,9 +256,9 @@ swiper {
     .arrowNext,
     .arrowBack {
       cursor: pointer;
-      width: 65px;
-      height: 65px;
-      padding: 21px;
+      width: 3.385416666666667vw;
+      height: 3.385416666666667vw;
+      padding: 1.09375vw;
       background: #011627;
       box-shadow: -10px 14px 24px rgba(1, 22, 39, 0.08);
     }
@@ -273,22 +273,22 @@ swiper {
 
   .dots {
     position: absolute;
-    bottom: -55px;
-    left: 63px;
+    bottom: -2.864583333333333vw;
+    left: 3.28125vw;
     z-index: -1;
   }
 }
 
 .btnOffer {
-  margin-top: 45px;
-  padding: 19px 47px;
+  margin-top: 2.34375vw;
+  padding: 0.989583333333333vw 2.447916666666667vw;
   background: #00c9e0;
   box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
   border-radius: 183px;
   font-family: Larsseit;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.208333333333333vw;
   line-height: 190%;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -304,15 +304,15 @@ swiper {
     font-family: Larsseit;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.78125vw;
     line-height: 150%;
     letter-spacing: 0.15em;
     color: #ffffff;
-    margin-bottom: 18px;
+    margin-bottom: 0.9375vw;
   }
   .borderImage {
     position: absolute;
-    top: 12px;
+    top: 0.625vw;
     right: 0px;
   }
 }
