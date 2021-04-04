@@ -4,7 +4,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 
 const routes: Routes = [
   { path: 'Home', component: HomePageComponent },
-  { path: '**', redirectTo: '/Home', pathMatch: 'full' },
+  { path: '**', component: HomePageComponent },  // Wildcard route for a 404 page
 ];
 
 @NgModule({
