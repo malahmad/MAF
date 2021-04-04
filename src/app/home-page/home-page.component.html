@@ -1,0 +1,83 @@
+<div class="gradiant">
+  <span class="bg"
+    ><img class="background" src="/assets/bg.jpeg" alt="background"
+  /></span>
+  <img class="lightbackground" src="/assets/BGLIGHTS.svg" alt="lights" />
+</div>
+<app-header></app-header>
+
+<section class="textsection">
+  <h1 class="title">Night Trips</h1>
+  <h3 class="sutitle">WE GOT TRIPS FOR THE TRIPPSTER IN YOU</h3>
+  <p class="description">
+    Neque, eros commodo, nascetur ullamcorper vitae. Tincidunt ut venenatis,
+    volutpat lorem ut faucibus mauris, quisque. Integer gravida sed quis congue.
+    Vel risus, arcu a viverra leo id pulvinar ultricies. Enim in in in pulvinar
+    nulla sollicitudin. Ullamcorper.
+  </p>
+</section>
+
+<div class="socialSection">
+  <div class="scroll">SCROLL</div>
+  <app-social></app-social>
+</div>
+
+<div class="tripSection">
+  <section class="tripHeader">
+    <h1 class="tripTitle">Pick your trip</h1>
+    <img class="xIcon" src="/assets/icons/x-icon.svg" />
+    <p class="tripDescription">
+      Our team put together some trips to you to discover, feel free to discover
+      each of them.
+    </p>
+  </section>
+
+  <div>
+    <div class="tripsContainer">
+      <ng-container *ngFor="let item of trips; let i = index">
+        <span
+          class="trip"
+          (click)="changeSelectedIndex(i)"
+          [ngClass]="{ active: i == selectedIndex }"
+        >
+          {{ item.name }}</span
+        >
+      </ng-container>
+    </div>
+    <div class="tripContent">
+      <div *ngIf="selectedItem" class="sliderContainer">
+        <swiper [config]="config" #usefulSwiper>
+          <div class="swiper-wrapper">
+            <img
+              class="swiper-slide"
+              *ngFor="let img of selectedItem.images"
+              [src]="img"
+            />
+          </div>
+        </swiper>
+        <div class="arrows">
+          <img
+            (click)="slidePrev()"
+            class="arrowBack"
+            src="/assets/icons/arrow-back.svg"
+          />
+          <img
+            (click)="slideNext()"
+            class="arrowNext"
+            src="/assets/icons/arrow-back.svg"
+          />
+        </div>
+        <img class="dots" src="/assets/icons/Dots.svg" />
+      </div>
+      <div>
+        <h2 class="tripName">{{ selectedItem?.name }}</h2>
+        <p class="tripInfo" [innerHTML]="selectedItem?.description"></p>
+        <button class="btnOffer">SEE OUR LATEST OFFER</button>
+      </div>
+      <div class="socialBottom">
+        <app-social [vertical]="false" [title]="'SHARE IT:'" ></app-social>
+        <img class="borderImage" src="/assets/icons/shareBorder.svg" />
+      </div>
+    </div>
+  </div>
+</div>

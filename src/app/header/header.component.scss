@@ -1,0 +1,52 @@
+nav {
+  z-index: 1;
+  padding: 3.90625vw 13.697916666666667vw 0vw 13.020833333333333vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.875vw;
+    line-height: 190%;
+    color: #ffffff;
+    cursor: default;
+    .dot {
+      color: #41ead4;
+    }
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    > * {
+      cursor: pointer;
+    }
+    .search {
+      margin-right: 1.822916666666667vw;
+      width: 1.25vw;
+    }
+    .item {
+      background: #00c9e0;
+      box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+      border-radius: 2.5VW;
+      padding: 1.09375vw 2.65625vw 1.09375vw 2.65625vw;
+      font-family: Larsseit;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.833333333333333vw;
+      line-height: 1.09375vw;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      height: 100%;
+      color: #ffffff;
+    }
+  }
+}
+
+
+
+///////////////////////////////////////@at-root
+
+

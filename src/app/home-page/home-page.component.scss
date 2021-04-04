@@ -1,0 +1,318 @@
+.gradiant {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  &::before {
+    content: "";
+    position: absolute;
+    position: absolute;
+    width: 100%;
+    height: 377px;
+    left: 1px;
+    top: 817px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(1, 22, 39, 0) 0%,
+      #011627 76.64%,
+      #011627 100%
+    );
+  }
+}
+
+.background {
+  width: 100%;
+}
+.lightbackground {
+  margin-top: -30px;
+  width: 100%;
+  max-height: 1112px;
+}
+
+.textsection {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.title {
+  font-family: Noe Display;
+  font-size: 6.25vw;
+  line-height: 7.96875vw;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  padding-top: 7.916666666666667vw;
+}
+
+.sutitle {
+  font-family: Larsseit;
+  font-size: 0.9375vw;
+  line-height: 1.25vw;
+  letter-spacing: 0.083vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 0.729166666666667vw;
+}
+
+.description {
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.885vw;
+  line-height: 150%;
+  color: #ffffff;
+  max-width: 33.489583333333333vw;
+  padding-top: 2.604166666666667vw;
+  margin: 0 auto;
+}
+
+.socialSection {
+  padding: 10vw 13.020833333333333vw 0px 13.020833333333333vw;
+  display: flex;
+  justify-content: space-between;
+  .scroll {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.78125vw;
+    line-height: 190%;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: 0.9;
+    cursor: default;
+    writing-mode: vertical-lr;
+    transform: rotate(179deg);
+    &::before {
+      content: " ";
+      width: 0.104166666666667vw;
+      height: 4.166666666666667vw;
+      display: block;
+      background: linear-gradient(180deg, #09f4f4 0%, #00c9e0 100%);
+      border-radius: 0.677083333333333vw;
+      margin-bottom: 0.78125vw;
+    }
+  }
+}
+
+.tripSection {
+  margin: 232px 299px 100px 266px;
+}
+
+.tripHeader {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 83px;
+
+  .tripTitle {
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-left: 93px;
+  }
+  .tripDescription {
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    width: 349px;
+  }
+
+  .xIcon {
+    margin: 0px 33px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.tripsContainer {
+  margin: 0px 0px 95px 139px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #41ead4;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  .trip {
+    cursor: pointer;
+    position: relative;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    opacity: 0.5;
+    padding-bottom: 33px;
+    width: 100%;
+    overflow: hidden;
+
+    &.active {
+      color: #41ead4;
+      opacity: 1;
+      &::after {
+        content: " ";
+        position: absolute;
+        color: white;
+        border-radius: 13px;
+        height: 4px;
+        z-index: 1111;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background: #41ead4;
+        animation: slide 0.5s;
+      }
+    }
+  }
+  &::after {
+    content: " ";
+    background: #41ead4;
+    opacity: 0.3;
+    border-radius: 13px;
+    height: 2px;
+    content: " ";
+    background: #41ead4;
+    opacity: 0.3;
+    border-radius: 13px;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+
+.tripContent {
+  display: flex;
+  width: 100%;
+  position: relative;
+  .tripName {
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-top: 67px;
+    margin-bottom: 34px;
+  }
+  .tripInfo {
+    font-family: Larsseit;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    max-width: 485px;
+  }
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+
+swiper {
+  width: 486px;
+  height: 607px;
+  margin-left: 139px;
+  background: #011627;
+}
+.sliderContainer {
+  position: relative;
+  margin-right: 124px;
+  .arrows {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    display: flex;
+    .arrowNext,
+    .arrowBack {
+      cursor: pointer;
+      width: 65px;
+      height: 65px;
+      padding: 21px;
+      background: #011627;
+      box-shadow: -10px 14px 24px rgba(1, 22, 39, 0.08);
+    }
+    .arrowBack {
+      border-top-left-radius: 10px;
+      border-right: 2px solid rgba(19, 49, 73, 0.5);
+    }
+    .arrowNext {
+      transform: rotate(180deg);
+    }
+  }
+
+  .dots {
+    position: absolute;
+    bottom: -55px;
+    left: 63px;
+    z-index: -1;
+  }
+}
+
+.btnOffer {
+  margin-top: 45px;
+  padding: 19px 47px;
+  background: #00c9e0;
+  box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+  border-radius: 183px;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 190%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+}
+
+.socialBottom {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  .socialTitle {
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    margin-bottom: 18px;
+  }
+  .borderImage {
+    position: absolute;
+    top: 12px;
+    right: 0px;
+  }
+}

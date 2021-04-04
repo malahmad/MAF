@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Chill Adventure",
+    "images": [
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg"
+    ],
+    "description": "<b>1 Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</b> <br/> <br/> Aliquet dictum aliquet faucibus cursus turpis.Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis."
+  },
+  {
+    "name": "Spooky Times",
+    "images": [
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg"
+    ],
+    "description": "<b>2 Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</b> <br/> <br/> Aliquet dictum aliquet faucibus cursus turpis.Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis."
+  },
+  {
+    "name": "Desert Madness",
+    "images": [
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg"
+    ],
+    "description": "<b>3 Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</b> <br/> <br/> Aliquet dictum aliquet faucibus cursus turpis.Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis."
+  },
+  {
+    "name": "Out in the wild",
+    "images": [
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg",
+      "/assets/trips/image1.jpeg"
+    ],
+    "description": "<b>4 Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.</b> <br/> <br/> Aliquet dictum aliquet faucibus cursus turpis.Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis."
+  }
+]
